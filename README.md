@@ -17,6 +17,13 @@ cd yiimp_install_scrypt-master
 bash install.sh
 
 
+###Org.Link
+
+git clone https://github.com/eskal/yiimp_install_scrypt.git
+cd yiimp_install_scrypt/
+bash install.sh
+
+
 ###after DONE !!!
 
 edit /var/web/yaamp/modules/site
