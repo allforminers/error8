@@ -34,9 +34,19 @@ public function actionmyadmin()
 to
 public function actionmypanel()
 
+Edit .conf Stratum Mining DIFF
+
+sha. edit
+
+[STRATUM]
+algo = sha256
+difficulty = 750000
+nicehash = 1000000
+max_ttf = 40000
+reconnect = 1
 
 
-next
+###Next STEP
 
 
 ### ERROR: RPC Error: error -8: label argument must be a valid label name or "*"
