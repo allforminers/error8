@@ -1,6 +1,6 @@
 
 
-### ERROR: RPC Error: error -8: label argument must be a valid label name or "*" FIX:
+### ERROR: RPC Error: error -8: label argument must be a valid label name or "*"
 
 ```edit coin_results.php,
 /var/web/yaamp/modules/site/coin_results.php line 306 change ticker 
