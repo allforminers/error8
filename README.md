@@ -1,8 +1,27 @@
 
+```
+u18
+
+git clone https://github.com/eskal/yiimp_install_scrypt.git
+cd yiimp_install_scrypt/
+bash install.sh
+
+edit /var/web/yaamp/modules/site
+files edit
+SiteController.php line 11
+
+public function actionmyadmin()
+to
+public function actionmypanel()
+
+
+
+next
+
 
 ### ERROR: RPC Error: error -8: label argument must be a valid label name or "*"
 
-```edit coin_results.php,
+edit coin_results.php,
 /var/web/yaamp/modules/site/coin_results.php line 306 change ticker 
 
 example 
