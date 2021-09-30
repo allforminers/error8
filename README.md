@@ -1,10 +1,23 @@
 
 ```
-u18
+###u18
 
-git clone https://github.com/eskal/yiimp_install_scrypt.git
-cd yiimp_install_scrypt/
+sudo apt -y install git
+
+git clone https://github.com/allforminers/error8.git
+
+cd error8
+
+sudo apt-get install -y unzip
+
+unzip yiimp_install_scrypt-master.zip
+
+cd yiimp_install_scrypt-master
+
 bash install.sh
+
+
+###after DONE !!!
 
 edit /var/web/yaamp/modules/site
 files edit
