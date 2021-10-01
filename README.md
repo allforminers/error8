@@ -70,6 +70,10 @@ if ($DCR || $DGB ) $account = '*';
 else if ($ETH) $account = $coin->master_wallet;
 if ($coin->symbol=="TESTB" || $coin->symbol=="LTC") $account = "*";
 
+cd /var/web/yaamp/modules/site
+nano coin_results.php 
+line 306
+
 --------------
 --------------
 
