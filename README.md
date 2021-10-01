@@ -37,7 +37,22 @@ public function actionmyadmin()
 to
 public function actionmypanel()
 
-Edit .conf Stratum Mining DIFF
+
+****************BTC Core 21.22
+rpcuser=yiimprpc
+rpcpassword=4i3Et9SQiluPASkikLNQw
+rpcport=10005
+rpcthreads=8
+rpcallowip=127.0.0.1
+rpcbind=127.0.0.1
+# onlynet=ipv4
+maxconnections=12
+daemon=1
+listen=1
+server=1
+gen=0
+
+********* Edit .conf Stratum Mining DIFF
 
 sha. edit
 
