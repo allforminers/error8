@@ -30,6 +30,9 @@ edit /var/web/yaamp/modules/site
 files edit
 SiteController.php line 11
 
+cd /var/web/yaamp/modules/site
+nano SiteController.php
+
 public function actionmyadmin()
 to
 public function actionmypanel()
