@@ -45,6 +45,12 @@ nicehash = 1000000
 max_ttf = 40000
 reconnect = 1
 
+cd /var/stratum
+screen bash run.sh sha
+
+kill proces
+screen -X -S 31996.pts-11.vmi439482 kill
+
 
 ###Next STEP
 
