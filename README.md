@@ -183,30 +183,32 @@ Add Dedicated Port for each coin:
 18. Open the port using sudo ufw allow 12345/tcp 
 19. Start mining to dedicated port
  
-----exampel of reden.conf in stratum/config/----
+----exampel of MODcoinBTC.conf in stratum/config/----
  
 ////////////////////////////////////////////////////
 [TCP]
-server = swedpool.eu
-port = 12345
-password = hCMkqCLsnBRYheIrH5Asysl
- 
+server = your ip server
+port = 3131
+password = FueaCMuQuFBFe6aDc1YI01os8FZVpSmP
+
 [SQL]
 host = localhost
 database = yiimpfrontend
 username = stratum
-password = whiGSN2cn3xcJJ
- 
+password = 5tn8dpZ2joijITnu4HOA0xodAWbSyCKM
+
 [STRATUM]
-algo = x16s
-difficulty = 0.25
-max_ttf = 50000
- 
+algo = sha256
+difficulty = 1750000
+nicehash = 1750000
+max_ttf = 40000
+reconnect = 1
+
 [WALLETS]
-    include = REDEN
+include = BTC
 ///////////////////////////////////////////////////////
  
-----exampel of x16s.conf in stratum/config/----
+----exampel orginal of sha.conf in stratum/config/----
  
 //////////////////////////////////////////////////////
  
@@ -227,6 +229,6 @@ difficulty = 0.25
 max_ttf = 50000
  
 [WALLETS]
-    exclude = REDEN
+    exclude = BTC 
 
 ```
