@@ -231,4 +231,7 @@ max_ttf = 50000
 [WALLETS]
     exclude = BTC 
 
+cd /var/stratum
+screen bash run.sh x11
+
 ```
