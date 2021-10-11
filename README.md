@@ -47,6 +47,7 @@ rpcallowip=127.0.0.1
 rpcbind=127.0.0.1
 # onlynet=ipv4
 maxconnections=12
+shrinkdebugfile=1
 daemon=1
 listen=1
 server=1
